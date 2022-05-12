@@ -1,2 +1,2 @@
-# CClab-ProjectB
+# AudioVisualizer
  
