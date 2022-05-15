@@ -12,6 +12,8 @@ body {
 	background: #d3b1c2;
 	overflow: hidden;
 	font-size: 0.85rem;
+	padding-top: 10%;
+	margin-top: 10%;
 }
 
 canvas {
@@ -28,7 +30,7 @@ canvas {
 	position: absolute;
   background-color: #211522;
 	left: 0;
-	top: 0;
+	top: 10;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
