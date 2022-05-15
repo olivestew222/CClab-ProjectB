@@ -13,7 +13,7 @@
   <script>document.documentElement.className='js';</script>
   <script src="libraries/p5.js"></script>
   <script src="libraries/p5.sound.js"></script>
-  <script src="js/sketchVibrant.js"></script>
+  
 
 </head>
 
@@ -26,18 +26,28 @@
       <button class="menuButton" role="button-b">Vibrant</button>
     </a>
     <a href="muted.html">
-      <button class="menuButton" role="button-b">Muted</button>
+      <button class="menuButton" role="button-b">Dull</button>
     </a>
     <a href="dark.html">
       <button class="menuButton" role="button-b">Dark</button>
  </a>
   </header>
 
-  <div styleid = "container">
+  <div id = "about">
     <title>Audio Visualizer</title>
-  <p id= "about">
-    This project is a music visualization tool. Utilizing FFTs, we are able to extract the frequency spectrum of sound. Visual art is capable of enhancing a musical experience, and the music visualizer allows users to understand a song on a new level. Try exploring the visualizer, and see if the different colors alter your listening experience. You may pause/play the visualizer by pressing your mouse. Press your mouse to begin...
+  <p>
+    This project is a music visualization tool.
+    <b> 
+      <div>
+      The main goal is for users to have the opportunity to explore music through visual art. By exploring the tabs with different colors (and the same song), the viewer is provided the opportunity to analyze how color may effect the mood that they feel when experiencing art. Does the different color change the way the viewer feels about the song? Do they prefer a certain color? Is there any effect at all? 
+    </b>
+  </div>
+</p>
+<p>
+  <div>
+    Utilizing FFTs, we are able to extract the frequency spectrum of sound, and display it as a visual representation of the art. Visual art is capable of enhancing a musical experience, and the music visualizer allows users to understand a song on a new level. Try exploring the visualizer, and see if the different colors alter your listening experience. You may pause/play the visualizer by pressing your mouse. Press your mouse to begin...
   </p>
+</div>
 </div>
   <canvas id="webglcanvas"></canvas>
 </body>
