@@ -9,7 +9,7 @@ body {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	color: #111827;
-	background: #d3b1c2;
+	
 	overflow: hidden;
 	font-size: 0.85rem;
 }
@@ -73,7 +73,8 @@ canvas {
 
 /* CSS Code from https://getcssscan.com/css-buttons-examples */
 .menuButton {
-background-color: #f8afdba2;  border: 0;
+background-color: #f8afdba2; 
+ border: 0;
   border-radius: .2rem;
   box-sizing: border-box;
   color: #111827;
