@@ -12,8 +12,7 @@ body {
 	background: #d3b1c2;
 	overflow: hidden;
 	font-size: 0.85rem;
-	padding-top: 10%;
-	margin-top: 10%;
+
 }
 
 canvas {
@@ -29,7 +28,8 @@ canvas {
 .headerMain {
 	position: absolute;
   background-color: #211522;
-	left: 0;	display: flex;
+	left: 0;	
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
