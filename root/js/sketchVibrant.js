@@ -9,7 +9,7 @@ let spins; //rotation
 let beats = []; //will analyze upper freq, disp array
 
 function preload() {
-    music = loadSound("assets/aphex.mp3");
+    music = loadSound("/assets/aphex.mp3");
 }
 
 function windowResized() {
